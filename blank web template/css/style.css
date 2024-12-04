@@ -1,0 +1,189 @@
+.container {
+	width: 100vw;
+	height: auto;
+	position: relative;
+}
+
+section {
+	position: relative;
+	width: 100px;
+	height: auto;
+	margin: auto;
+}
+
+h2 {
+	font-family: 'Luckiest Guy';
+	font-size: 30px;
+	position: absolute;
+	left: 30px;
+	top: 20px;
+	z-index: 1;
+}
+
+.navigation {
+	width: 100vw;
+	height: 70px;
+	background: #1B3C62;
+	position: fixed;
+	z-index: 1;
+}
+
+.homeimage {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100vw;
+	height: 35vw;
+	object-fit: cover;
+
+}
+
+.news1 {
+	width: 280px;
+	height: 250px;
+	background: white;
+	position: absolute;
+	left: 50px;
+	top: 60px;
+	text-align: center;
+	color: white;
+}
+
+.news2 {
+	width: 280px;
+	height: 250px;
+	background: white;
+	position: absolute;
+	left: 360px;
+	top: 60px;
+	text-align: center;
+	color: white;
+	overflow: hidden;
+}
+
+.news3 {
+	width: 280px;
+	height: 250px;
+	background: white;
+	position: absolute;
+	left: 670px;
+	top: 60px;
+	text-align: center;
+	color: white;
+	overflow: hidden;
+}
+
+.shirt {
+	width: 120px;
+	height: auto;
+	position: absolute;
+	left: 15px;
+	top: 20px;
+}
+
+.poster	{
+	width: 110px;
+	height: auto;
+	position: absolute;
+	left: 148px;
+	top: 18px;
+}
+
+.jazz {
+	width: 280px;
+	height: auto;
+	margin-bottom: -165px;
+}
+
+li {
+	float: right;
+	margin-left: 20px;
+	margin-top: 25px;
+	margin-right: 10px;
+}
+
+.title {
+	font-family: 'Luckiest Guy';
+	font-size: 22px;
+	color: white;
+	position: absolute;
+	top: 29px;
+	left: 52px;
+	z-index: 2;
+}
+
+.logo {
+	height: 40px;
+	width: 40px;
+	left: 5px;
+	top: 15px;
+	position: absolute;
+	object-fit: cover;
+	object-position: 0% 0;
+	z-index: 2;
+}
+
+.one {
+	width: 1000px;
+	height: 100vh;
+	background: lightgrey;
+	margin: auto;
+	font-family: 'K2D';
+	background: #EFEFEF;
+}
+
+.two {
+	width: 1000px;
+	height: 100vh;
+	background: lightgrey;
+	margin: auto;
+	font-family: 'K2D';
+}
+
+.three {
+	width: 1000px;
+	height: 600px;
+	background: lightgrey;
+	margin: auto;
+	font-family: 'K2D';
+}
+
+.four {
+	width: 1000px;
+	height: 300px;
+	background: lightgrey;
+	margin: auto;
+	font-family: 'K2D';
+}
+
+ul {
+	list-style: none;
+	margin-left: 15px;
+	margin-right: 10px;
+	font-size: 19px;
+}
+
+li {
+	float: right;
+	margin-left: 20px;
+}
+
+a {
+	color: white;
+	text-decoration: none; /* removes the underline and blue color of our text links */
+	font-family: 'K2D';
+}
+
+li:last-child { /* last-child only targets the last item on our list, which is our home page link */
+	float: right; /* make sure that the home page link is on the left of the page, not the right */
+	margin-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
